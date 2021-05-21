@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2c32d85d-c253-487f-ac6e-5481e446b718" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/service-order/target/" />
+    <ignored path="$PROJECT_DIR$/eureka/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/api-driver/target/" />
+    <ignored path="$PROJECT_DIR$/../seata-all/inventory/target/" />
+    <ignored path="$PROJECT_DIR$/../seata-all/eureka/target/" />
+    <ignored path="$PROJECT_DIR$/../seata-all/target/" />
+    <ignored path="$PROJECT_DIR$/../seata-all/order/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="distributed-lock" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../seata-all/inventory/src/main/java/com/example/two/controller/InventoryController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../seata-all/inventory/src/main/java/com/example/two/service/InventoryInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../seata-all/inventory/src/main/java/com/example/two/service/RmTwoInterfaceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="14" column="35" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1701#1702#0" expanded="true" />
+                <element signature="e#1770#1771#0" expanded="true" />
+                <element signature="e#1796#1797#0" expanded="true" />
+                <element signature="e#1867#1868#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../seata-all/inventory/src/main/java/com/example/two/service/RmTwoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../seata-all/order/src/main/java/com/example/one/controller/OrderController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api-driver/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../seata-all/order/src/main/java/com/example/one/service/OrderInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="15" column="1" selection-start-line="6" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../seata-all/order/src/main/java/com/example/one/service/OrderService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="36" column="35" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../seata-all/order/src/main/java/com/example/one/service/RmOneInterfaceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>services-server</find>
+      <find>inventoryTccAction</find>
+      <find>app</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/annotation/LockAop.java" />
+        <option value="$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/entity/TblOrderLock.java" />
+        <option value="$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/entity/TblOrder.java" />
+        <option value="$PROJECT_DIR$/service-order/src/main/resources/mapper/TblOrderDao.xml" />
+        <option value="$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/controller/Generator.java" />
+        <option value="$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/entity/saveInfo.java" />
+        <option value="$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/dao/saveInfoMapper.java" />
+        <option value="$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service-order/src/main/resources/application-dev1.yml" />
+        <option value="$PROJECT_DIR$/service-order/src/main/resources/application-dev2.yml" />
+        <option value="$PROJECT_DIR$/service-order/src/main/resources/mapper/SaveInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/entity/SaveInfo.java" />
+        <option value="$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/model/Main.java" />
+        <option value="$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/service/impl/SaveInfoServer.java" />
+        <option value="$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/service/SaveInfoServer.java" />
+        <option value="$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/service/impl/GrabRedisLockServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/service/impl/GrabMysqlLockServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/lock/MysqlLock.java" />
+        <option value="$PROJECT_DIR$/eureka/src/main/java/com/online/taxi/eureka/EurekaLockApplication.java" />
+        <option value="$PROJECT_DIR$/api-driver/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../seata-all/inventory/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../seata-all/inventory/src/main/java/com/example/two/InventorySeataApplication.java" />
+        <option value="$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/controller/GetInfoByIdController.java" />
+        <option value="$PROJECT_DIR$/../seata-all/order/src/main/java/com/example/one/dao/TblOneDao.java" />
+        <option value="$PROJECT_DIR$/../seata-all/inventory/src/main/java/com/example/two/dao/TblTwoDao.java" />
+        <option value="$PROJECT_DIR$/../seata-all/inventory/src/main/java/com/example/two/dao/TblInventoryDao.java" />
+        <option value="$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/dao/SaveInfoMapper.java" />
+        <option value="$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/dao/TblOrderLockDao.java" />
+        <option value="$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/dao/TblOrderDao.java" />
+        <option value="$PROJECT_DIR$/../seata-all/order/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../seata-all/order/src/main/java/com/example/one/service/RmOneInterfaceImpl.java" />
+        <option value="$PROJECT_DIR$/../seata-all/inventory/src/main/java/com/example/two/service/RmTwoService.java" />
+        <option value="$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/service/impl/RenewGrabLockServiceImpl.java" />
+        <option value="$PROJECT_DIR$/api-driver/src/main/java/com/online/taxi/order/controller/GrabOrderController.java" />
+        <option value="$PROJECT_DIR$/service-order/pom.xml" />
+        <option value="$PROJECT_DIR$/service-order/src/main/resources/generatorConfigMySql.xml" />
+        <option value="$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/service/impl/GrabRedisRedissonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/service/impl/GrabRedisRedissonRedLockLockServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/redLock/RedLockConfig.java" />
+        <option value="$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/redLock/RedLockService.java" />
+        <option value="$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/redLock/RedLockController.java" />
+        <option value="$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/controller/GrabOrderController.java" />
+        <option value="$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/service/impl/SaveInfoServerImpl.java" />
+        <option value="$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/redLock/RedLockLockServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service-order/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../seata-all/order/src/main/resources/mapper/TblOrderDao.xml" />
+        <option value="$PROJECT_DIR$/../seata-all/inventory/src/main/java/com/example/two/service/InventoryInterface.java" />
+        <option value="$PROJECT_DIR$/../seata-all/inventory/src/main/java/com/example/two/controller/InventoryController.java" />
+        <option value="$PROJECT_DIR$/../seata-all/order/src/main/java/com/example/one/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/../seata-all/inventory/src/main/java/com/example/two/service/RmTwoInterfaceImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JavaeeView">
+    <option name="showModules" value="false" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\JAVA\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="32" />
+    <option name="y" value="54" />
+    <option name="width" value="1671" />
+    <option name="height" value="895" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="distributed-lock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-lock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-lock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-lock" type="462c0819:PsiDirectoryNode" />
+              <item name="service-order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-lock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-lock" type="462c0819:PsiDirectoryNode" />
+              <item name="service-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-lock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-lock" type="462c0819:PsiDirectoryNode" />
+              <item name="service-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-lock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-lock" type="462c0819:PsiDirectoryNode" />
+              <item name="service-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed-lock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed-lock" type="462c0819:PsiDirectoryNode" />
+              <item name="service-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1618971167400" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../seata-all/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.online.taxi.order.redLock" />
+      <recent name="com.online.taxi.order.entity" />
+      <recent name="com.online.taxi.order.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JAVA\idea\distributed-lock\service-order\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.InventorySeataApplication">
+    <configuration name="InventorySeataApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.two.InventorySeataApplication" />
+      <module name="inventory-seata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.two.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderSeataApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.one.OrderSeataApplication" />
+      <module name="order-seata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.one.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaLockApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-lock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.online.taxi.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.online.taxi.eureka.EurekaLockApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaSeataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-seata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eureka.EurekaSeataApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LockApplication6011" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-order-lock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.online.taxi.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.online.taxi.order.ServiceOrderLockApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver=6011" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LockApplication7011" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-order-lock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.online.taxi.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.online.taxi.order.ServiceOrderLockApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver=7011" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LockApplication8011" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-order-lock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.online.taxi.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.online.taxi.order.ServiceOrderLockApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver=8011" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceOrderLockApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-order-lock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.online.taxi.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.online.taxi.order.ServiceOrderLockApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.InventorySeataApplication" />
+      <item itemvalue="Application.OrderSeataApplication" />
+      <item itemvalue="Spring Boot.LockApplication7011" />
+      <item itemvalue="Spring Boot.LockApplication8011" />
+      <item itemvalue="Spring Boot.LockApplication6011" />
+      <item itemvalue="Spring Boot.EurekaLockApplication" />
+      <item itemvalue="Spring Boot.ServiceOrderLockApplication" />
+      <item itemvalue="Spring Boot.EurekaSeataApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.InventorySeataApplication" />
+        <item itemvalue="Application.OrderSeataApplication" />
+        <item itemvalue="Spring Boot.EurekaSeataApplication" />
+        <item itemvalue="Spring Boot.ServiceOrderLockApplication" />
+        <item itemvalue="Spring Boot.EurekaLockApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c32d85d-c253-487f-ac6e-5481e446b718" name="Default Changelist" comment="" />
+      <created>1606355996248</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606355996248</updated>
+      <workItem from="1606355997873" duration="20183000" />
+      <workItem from="1606705038650" duration="1386000" />
+      <workItem from="1606715351790" duration="170000" />
+      <workItem from="1606715605506" duration="19000" />
+      <workItem from="1606716007643" duration="902000" />
+      <workItem from="1606790544968" duration="30716000" />
+      <workItem from="1606899490647" duration="3962000" />
+      <workItem from="1606959912275" duration="11932000" />
+      <workItem from="1607062051268" duration="46000" />
+      <workItem from="1607069114686" duration="1348000" />
+      <workItem from="1607074162756" duration="49000" />
+      <workItem from="1607076081478" duration="1461000" />
+      <workItem from="1607307238694" duration="1327000" />
+      <workItem from="1607325624118" duration="1337000" />
+      <workItem from="1607329735051" duration="2113000" />
+      <workItem from="1607420486377" duration="1476000" />
+      <workItem from="1607504846476" duration="215000" />
+      <workItem from="1607505379864" duration="75000" />
+      <workItem from="1607506324145" duration="1682000" />
+      <workItem from="1607654374123" duration="686000" />
+      <workItem from="1607666161999" duration="625000" />
+      <workItem from="1607910293089" duration="377000" />
+      <workItem from="1608105240601" duration="180000" />
+      <workItem from="1608105439076" duration="7806000" />
+      <workItem from="1608184155722" duration="1106000" />
+      <workItem from="1608195357111" duration="1250000" />
+      <workItem from="1608717398355" duration="2989000" />
+      <workItem from="1608891307917" duration="1080000" />
+      <workItem from="1609121002895" duration="4678000" />
+      <workItem from="1609140032444" duration="2683000" />
+      <workItem from="1609148748082" duration="548000" />
+      <workItem from="1610350860777" duration="21832000" />
+      <workItem from="1610436177147" duration="709000" />
+      <workItem from="1610503128154" duration="637000" />
+      <workItem from="1610517786622" duration="788000" />
+      <workItem from="1610588982900" duration="360000" />
+      <workItem from="1610692695837" duration="1065000" />
+      <workItem from="1610696212278" duration="1088000" />
+      <workItem from="1610698002475" duration="598000" />
+      <workItem from="1610703630101" duration="693000" />
+      <workItem from="1611022306023" duration="11905000" />
+      <workItem from="1611125769734" duration="2688000" />
+      <workItem from="1612664465926" duration="23000" />
+      <workItem from="1612854497371" duration="923000" />
+      <workItem from="1612859956809" duration="45000" />
+      <workItem from="1616463951971" duration="1624000" />
+      <workItem from="1616493919203" duration="1293000" />
+      <workItem from="1617157096976" duration="1157000" />
+      <workItem from="1618969577973" duration="1363000" />
+      <workItem from="1621586129869" duration="313000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="153511000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="32" y="54" width="1671" height="895" extended-state="1" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.56401944" visible="true" weight="0.17815022" />
+      <window_info id="Structure" order="1" sideWeight="0.43598056" side_tool="true" weight="0.22096673" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.43598056" side_tool="true" weight="0.22096673" />
+      <window_info id="Web" order="7" sideWeight="0.43598056" side_tool="true" weight="0.22096673" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.3188248" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2328618" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.16757345" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32900432" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32900432" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.08658009" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.22306855" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.20895523" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="CDI" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.32995737" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.8.RELEASE/spring-web-5.2.8.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="200" selection-start-line="200" selection-end-line="200" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.8.RELEASE/spring-webmvc-5.2.8.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="891" column="49" lean-forward="true" selection-start-line="891" selection-start-column="49" selection-end-line="891" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.8.RELEASE/spring-webmvc-5.2.8.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="951" selection-start-line="951" selection-end-line="951" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.8.RELEASE/spring-webmvc-5.2.8.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="1023" selection-start-line="1023" selection-end-line="1023" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.8.RELEASE/spring-web-5.2.8.RELEASE-sources.jar!/org/springframework/web/filter/RequestContextFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.37/tomcat-embed-core-9.0.37-sources.jar!/org/apache/catalina/core/ApplicationFilterChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3097">
+          <caret line="195" selection-start-line="195" selection-end-line="195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.8.RELEASE/spring-core-5.2.8.RELEASE-sources.jar!/org/springframework/cglib/proxy/MethodProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3686">
+          <caret line="220" selection-start-line="220" selection-end-line="220" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.8.RELEASE/spring-aop-5.2.8.RELEASE-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2733">
+          <caret line="750" column="41" lean-forward="true" selection-start-line="750" selection-start-column="41" selection-end-line="750" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.2.8.RELEASE/spring-tx-5.2.8.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="144" column="21" selection-start-line="144" selection-start-column="21" selection-end-line="144" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.8.RELEASE/spring-aop-5.2.8.RELEASE-sources.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="162" selection-start-line="162" selection-end-line="162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.8.RELEASE/spring-web-5.2.8.RELEASE-sources.jar!/org/springframework/web/filter/OncePerRequestFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/seata/seata-all/1.0.0/seata-all-1.0.0.jar!/io/seata/rm/tcc/api/TwoPhaseBusinessAction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.37/tomcat-embed-core-9.0.37-sources.jar!/org/apache/catalina/core/StandardWrapperValve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/config/RedisLockConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/config/RedisSentinelProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.10.RELEASE/spring-data-redis-2.1.10.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="801" column="33" selection-start-line="801" selection-start-column="33" selection-end-line="801" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver/src/main/java/com/online/taxi/order/controller/GrabOrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.10.RELEASE/spring-data-redis-2.1.10.RELEASE.jar!/org/springframework/data/redis/core/ValueOperations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="39" column="40" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/service/RenewGrabLockService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver/src/main/java/com/online/taxi/order/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/service/impl/RenewGrabLockServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/entity/TblOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/entity/TblOrderLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/service/impl/GrabMysqlLockServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/lock/RedisLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-order/src/main/resources/luascript/lock-set.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-order/src/main/resources/luascript/lock-del.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/service/impl/GrabRedisLockServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="82" column="42" lean-forward="true" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-order/src/main/java/com/online/taxi/order/service/impl/GrabRedisRedissonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../seata-all/eureka/src/main/java/com/example/eureka/EurekaSeataApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../seata-all/inventory/src/main/java/com/example/two/entity/TblInventory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../seata-all/inventory/src/main/java/com/example/two/entity/TblTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../seata-all/inventory/src/main/java/com/example/two/dao/TblInventoryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../seata-all/inventory/src/main/java/com/example/two/dao/TblTwoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../seata-all/order/src/main/java/com/example/one/dao/TblOneDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../seata-all/order/src/main/java/com/example/one/dao/TblOrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../seata-all/order/src/main/java/com/example/one/entity/TblOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../seata-all/order/src/main/java/com/example/one/entity/TblOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../seata-all/order/src/main/resources/file.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../seata-all/order/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../seata-all/inventory/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../seata-all/eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../seata-all/inventory/src/main/java/com/example/two/controller/InventoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../seata-all/inventory/src/main/java/com/example/two/service/InventoryInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../seata-all/inventory/src/main/java/com/example/two/service/RmTwoInterfaceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1701#1702#0" expanded="true" />
+            <element signature="e#1770#1771#0" expanded="true" />
+            <element signature="e#1796#1797#0" expanded="true" />
+            <element signature="e#1867#1868#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../seata-all/inventory/src/main/java/com/example/two/service/RmTwoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../seata-all/order/src/main/java/com/example/one/service/OrderInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="1" selection-start-line="6" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../seata-all/order/src/main/java/com/example/one/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../seata-all/order/src/main/java/com/example/one/service/RmOneInterfaceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../seata-all/order/src/main/java/com/example/one/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>api-driver-lock</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

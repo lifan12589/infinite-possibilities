@@ -1,0 +1,25 @@
+#服务端口
+#server: 
+#  port: 8004
+
+#应用名称及验证账号
+spring: 
+  application: 
+    name: api-driver
+  main:
+    allow-bean-definition-overriding: true
+
+#注册中心
+eureka: 
+  
+  client:
+    enabled: true
+        #设置服务注册中心的URL
+    service-url:
+      defaultZone: http://localhost:7900/eureka/
+      #defaultZone: http://eureka-7900:7900/eureka/
+
+server:
+  port: 8003
+
+
