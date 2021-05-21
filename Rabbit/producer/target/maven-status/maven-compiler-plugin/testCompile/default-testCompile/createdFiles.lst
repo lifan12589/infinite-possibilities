@@ -1,0 +1,4 @@
+producer\TestInvokeRemote$UserRequst.class
+producer\TestRabbitMQ.class
+producer\TestInvokeRemote.class
+producer\TestRabbitMQ$UserRequst.class

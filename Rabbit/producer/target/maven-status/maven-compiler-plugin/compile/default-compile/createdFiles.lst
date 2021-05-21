@@ -1,0 +1,5 @@
+com\wondersgroup\sender\RabbitSender.class
+com\wondersgroup\direct\DirectConf.class
+com\wondersgroup\receive\OrderInfoReceive.class
+com\wondersgroup\topic\TopicConf.class
+com\wondersgroup\ClientApplication.class
