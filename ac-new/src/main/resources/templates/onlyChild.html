@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+	<meta name="renderer" content="webkit"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0"/>
+	<title>长三角政务服务“一网通办”</title>
+	<link href="plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+	<link href="plugin/fontawesome/css/font-awesome.min.css" rel="stylesheet"/>
+	<link href="http://www.shanghai.gov.cn/jhelper_V2.0/jhelper_tool_style.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="plugin/bootstrap-datepicker/css/bootstrap-datetimepicker.min.css"/>
+	<link href="http://zwdt.sh.gov.cn/zwdtSW/common/css/common.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="DangAn/css/courtIndex.css"/>
+	<script src="http://zwdt.sh.gov.cn/zwdtSW/plugin/supportolder/html5shiv.js"></script>
+	<script src="http://zwdt.sh.gov.cn/zwdtSW/plugin/supportolder/respond.min.js"></script>
+
+</head>
+<body>
+<div id="container">
+	<iframe class="customHeader_iframe visible-lg-block" scrolling="no" style="border:none;width:100%;height:69px;overflow:hidden;"  src="http://csj.sh.gov.cn/govService/head/commonHeaderSmall.jsp"></iframe>
+	<div class="common-content">
+
+		<form class="form-horizontal">
+			<div class="form-content clearfix">
+				<div class="form-group marriage-title">事项申请</div>
+				<!-- 申请人名称 -->
+				<div class="form-group col-lg-6 col-sm-12">
+					<label for="username" class="col-lg-3 col-sm-2 control-label is-required">申请人名称:</label>
+					<div class="col-lg-9 col-sm-10">
+						<input type="text" class="form-control" id="username" disabled = "disabled" th:value="${name}"/>
+					</div>
+				</div>
+				<!-- 证件类型 -->
+				<div class="form-group col-lg-6 col-sm-12">
+					<label for="card-type" class="col-lg-3 col-sm-2 control-label is-required">证件类型:</label>
+					<div class="col-lg-9 col-sm-10">
+						<input type="text" class="form-control" id="card-type"  th:value="${type}"/>
+					</div>
+				</div>
+				<!-- 申请人证件号 -->
+				<div class="form-group col-lg-6 col-sm-12">
+					<label for="id-card" class="col-lg-3 col-sm-2 control-label is-required">申请人证件号:</label>
+					<div class="col-lg-9 col-sm-10">
+						<input type="text" class="form-control" id="id-card"  th:value="${typeNm}"/>
+					</div>
+				</div>
+				<!-- 联系电话 -->
+				<div class="form-group col-lg-6 col-sm-12">
+					<label for="phone" class="col-lg-3 col-sm-2 control-label is-required">联系电话:</label>
+					<div class="col-lg-9 col-sm-10">
+						<input type="text" class="form-control" id="phone" th:value="${phone}"/>
+					</div>
+				</div>
+
+
+				<!-- 收件地区 -->
+				<div class="form-group col-lg-6 col-sm-12">
+					<label class="col-lg-3 col-sm-2 control-label is-required">收件地区:</label>
+					<div class="col-lg-9 col-sm-10">
+						<select class="form-control">
+							<option disabled = "disabled" >请选择</option>
+							<option value = "01">上海市</option>
+							<option value = "02">浙江省</option>
+						</select>
+					</div>
+				</div>
+				<!-- 收件部门 -->
+				<div class="form-group col-lg-6 col-sm-12">
+					<label  class="col-lg-3 col-sm-2 control-label is-required">收件部门:</label>
+					<div class="col-lg-9 col-sm-10 department">
+						<div class="col-xs-6">
+							<select class="form-control">
+								<option>杭州市</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+						</div>
+						<div class="col-xs-6">
+							<select class="form-control">
+								<option disabled ="disabled" >请选择</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+						</div>
+					</div>
+				</div>
+
+				<!-- 出生日期 -->
+				<div class="form-group col-lg-6 col-sm-12">
+					<label for="birth" class="col-lg-3 col-sm-2 control-label">出生日期:</label>
+					<div class="input-group col-lg-9 col-sm-10">
+						<input type="text" id="birth" class='form-control form_datetime' placeholder="请选择"/>
+						<span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+					</div>
+				</div>
+
+				<!-- 发证日期 -->
+				<div class="form-group col-lg-6 col-sm-12">
+					<label for="issue-date" class="col-lg-3 col-sm-2 control-label is-required">发证日期:</label>
+					<div class="input-group col-lg-9 col-sm-10">
+						<input type="text" id="issue-date" class='form-control form_datetime' placeholder="请选择"/>
+						<span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+					</div>
+				</div>
+
+				<!-- 档案送交方式 -->
+				<div class="form-group col-lg-6 col-sm-12">
+					<label class="col-lg-3 col-sm-2 control-label is-required">档案送交方式:</label>
+					<div class="col-lg-9 col-sm-10">
+						<div class="radio-inline">
+							<label>
+								<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1"/>
+								到查收馆取件
+							</label>
+						</div>
+						<div class="radio-inline">
+							<label>
+								<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"/>
+								挂号信
+							</label>
+						</div>
+						<div class="radio-inline">
+							<label>
+								<input type="radio" name="optionsRadios" id="optionsRadios3" value="option3"/>
+								快递<span class="tip-txt">(到付)</span>
+							</label>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+
+	<!-- 提交按钮 -->
+	<div class="form-group">
+		<div class="col-sm-12 marriage-submit">
+			<button type="submit" class="btn btn-default marriage-btn">提 交</button>
+		</div>
+	</div>
+	</form>
+</div>
+<iframe class="customFooter_iframe visible-lg-block" scrolling="no" style="height: 169px;" src="http://csj.sh.gov.cn/govService/foot/commonFooter.html" frameborder="0"></iframe>
+</div>
+
+<script src="plugin/jquery/jquery-1.12.0.min.js"></script>
+<script src='plugin/bootstrap/js/bootstrap.min.js'></script>
+<script src="plugin/bootstrap-datepicker/js/bootstrap-datetimepicker.min.js"></script>
+<script src="plugin/bootstrap-datepicker/locales/bootstrap-datetimepicker.zh-CN.js"></script>
+<script src="http://www.shanghai.gov.cn/jhelper_V2.0/zgsh/jhelper_config.js" charset="gb2312"></script>
+<script src="http://www.shanghai.gov.cn/jhelper_V2.0/jhelper_2.0.js" charset="gb2312"></script>
+
+
+</body>
+</html>
