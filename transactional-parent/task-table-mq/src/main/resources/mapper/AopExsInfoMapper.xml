@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wondersgroup.mapper.AopExsInfoMapper">
+  <resultMap id="BaseResultMap" type="com.wondersgroup.entity.AopExsInfo">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="cup_size" jdbcType="VARCHAR" property="cupSize" />
+    <result column="age" jdbcType="INTEGER" property="age" />
+    <result column="money" jdbcType="DOUBLE" property="money" />
+  </resultMap>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+        delete from aopexs
+        where id = #{id,jdbcType=VARCHAR}
+    </delete>
+    <insert id="insert" parameterType="com.wondersgroup.entity.AopExsInfo">
+        insert into aopexs (id, cup_size, age, money)
+        values (#{id,jdbcType=VARCHAR}, #{cupSize,jdbcType=VARCHAR}, #{age,jdbcType=INTEGER}, #{money,jdbcType=DOUBLE})
+    </insert>
+    <update id="updateByPrimaryKey" parameterType="com.wondersgroup.entity.AopExsInfo">
+        update aopexs
+        set cup_size = #{cupSize,jdbcType=VARCHAR},
+          age = #{age,jdbcType=INTEGER},
+          money = #{money,jdbcType=DOUBLE}
+        where id = #{id,jdbcType=VARCHAR}
+    </update>
+    <update id="updateByPrimaryKey2" parameterType="com.wondersgroup.entity.AopExsInfo">
+        update aopexs
+        set cup_size = #{cupSize,jdbcType=VARCHAR},
+          age = #{age,jdbcType=INTEGER},
+          money = #{money,jdbcType=DOUBLE}
+        where id = #{id,jdbcType=VARCHAR} and
+        <if test="money -100 >= 100.00"></if>
+    </update>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+        select id, cup_size, age, money
+        from aopexs
+        where id = #{id,jdbcType=VARCHAR}
+    </select>
+    <select id="selectAll" resultMap="BaseResultMap">
+        select id, cup_size, age, money
+        from aopexs
+    </select>
+    <select id="selectNew" resultMap="BaseResultMap" parameterType="java.lang.String">
+        select id, cup_size, age, money
+        from aopexs
+        where cup_size = #{cupSize,jdbcType=VARCHAR}
+    </select>
+</mapper>
