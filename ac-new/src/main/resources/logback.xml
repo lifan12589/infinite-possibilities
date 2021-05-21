@@ -10,7 +10,6 @@
 	<!-- 下面配置一些第三方包的日志过滤级别，用于避免刷屏-->
 	<logger name="org.apache.zookeeper.ClientCnxn" level="info" /><!-- 可关闭 zookeeper 心跳日志-->
 	<logger name="org.springframework" level="ERROR" />
-	<logger name="com.opensymphony" level="ERROR" />
 	<logger name="org.quartz" level="ERROR" />
 	<!-- <logger name="org.apache" level="ERROR" />-->
 	<logger name="net.sf" level="ERROR" />
