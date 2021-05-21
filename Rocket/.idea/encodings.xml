@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RocketMQ-Consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RocketMQ-Producer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rocketmq1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rocketmq1/src/main/java/com/infinitePossibilities/consumer/Consumer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/rocketmq1/src/main/java/com/infinitePossibilities/consumer/Consumer2.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/rocketmq1/src/main/java/com/infinitePossibilities/consumer/Consumer3.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/rocketmq1/src/main/java/com/infinitePossibilities/producer/Producer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/rocketmq1/src/main/java/com/infinitePossibilities/producer/Producer2.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/rocketmq1/src/main/java/com/infinitePossibilities/producer/Producer3.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/rocketmq1/src/main/java/com/infinitePossibilities/producer/Producer4.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/rocketmq1/src/main/java/com/infinitePossibilities/producer/Producer5.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/rocketmq2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rocketmq2/src/main/java/com/infinitePossibilities/consumer/Consumer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rocketmq2/src/main/java/com/infinitePossibilities/producer/Producer.java" charset="UTF-8" />
+  </component>
+</project>
