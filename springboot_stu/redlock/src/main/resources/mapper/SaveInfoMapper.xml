@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.infinitePossibilities.dao.SaveInfoMapper">
+
+  <resultMap id="BaseResultMap" type="com.infinitePossibilities.entity.SaveInfo">
+    <result column="ID" jdbcType="VARCHAR" property="id" />
+    <result column="APPLYNO" jdbcType="VARCHAR" property="applyno" />
+    <result column="USER_NAME" jdbcType="VARCHAR" property="userName" />
+    <result column="USER_NUMBER" jdbcType="VARCHAR" property="userNumber" />
+    <result column="ADDRESS" jdbcType="VARCHAR" property="address" />
+    <result column="SAVE_TIME" jdbcType="TIMESTAMP" property="saveTime" />
+    <result column="TYPE" jdbcType="VARCHAR" property="type" />
+    <result column="COUNT" jdbcType="VARCHAR" property="count" />
+    <result column="SAVE_BOLB" jdbcType="LONGVARBINARY" property="saveBolb" />
+    <result column="SAVE_CLOB" jdbcType="LONGVARCHAR" property="saveClob" />
+  </resultMap>
+
+
+  <insert id="insert" parameterType="com.infinitePossibilities.entity.SaveInfo">
+    insert into save (ID, APPLYNO, USER_NAME, 
+      USER_NUMBER, ADDRESS, SAVE_TIME, 
+      TYPE, COUNT, SAVE_BOLB, 
+      SAVE_CLOB)
+    values (#{id,jdbcType=VARCHAR}, #{applyno,jdbcType=VARCHAR}, #{userName,jdbcType=VARCHAR}, 
+      #{userNumber,jdbcType=VARCHAR}, #{address,jdbcType=VARCHAR}, #{saveTime,jdbcType=TIMESTAMP}, 
+      #{type,jdbcType=VARCHAR}, #{count,jdbcType=VARCHAR}, #{saveBolb,jdbcType=LONGVARBINARY}, 
+      #{saveClob,jdbcType=LONGVARCHAR})
+  </insert>
+
+
+  <select id="selectAll" resultMap="BaseResultMap">
+    select ID, APPLYNO, USER_NAME, USER_NUMBER, ADDRESS, SAVE_TIME, TYPE, COUNT, SAVE_BOLB, 
+    SAVE_CLOB
+    from save
+  </select>
+
+
+  <select id="selectInfoByid" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select ID, APPLYNO, USER_NAME, USER_NUMBER, ADDRESS, SAVE_TIME, TYPE, COUNT, SAVE_BOLB,
+    SAVE_CLOB
+    from save
+    where id = #{id,jdbcType=VARCHAR}
+  </select>
+
+  <update id="updateByPrimaryid" parameterType="com.infinitePossibilities.entity.SaveInfo">
+        update save
+        set type = #{type,jdbcType=VARCHAR}
+        where id = #{id,jdbcType=INTEGER}
+    </update>
+</mapper>
