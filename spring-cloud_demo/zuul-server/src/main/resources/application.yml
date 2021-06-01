@@ -1,0 +1,20 @@
+
+server:
+  port: 18080 #服务端口
+spring:
+  application:
+    name: api-gateway #指定服务名
+
+
+
+eureka:
+  client:
+    prefer-ip-address: true
+    service-url:
+      defaultZone: http://localhost:7900/eureka/
+
+zuul:
+  routes:
+    user-service: # 这里是路由id，随意写
+      path: /consumer/** # 这里是映射路径
+      url: http://localhost:8081 # 映射路径对应的实际url地址
