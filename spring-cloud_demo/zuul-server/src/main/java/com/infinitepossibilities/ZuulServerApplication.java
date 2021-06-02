@@ -17,6 +17,10 @@ public class ZuulServerApplication {
 
     /*
     访问：
-        http://localhost:18080/consumer/user?hids=123,456,789
+        http://localhost:18080/user-consumer/user?ids=123,456,789
+
+        http://localhost:18080/user-consumer/user/hystrix?hids=123,456,789
+
+        http://localhost:18080/user-consumer/user/feign?hids=123,456,789
      */
 }

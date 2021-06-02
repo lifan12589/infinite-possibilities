@@ -16,5 +16,5 @@ eureka:
 zuul:
   routes:
     user-service: # 这里是路由id，随意写
-      path: /consumer/** # 这里是映射路径
+      path: /user-consumer/** # 这里是映射路径
       url: http://localhost:8081 # 映射路径对应的实际url地址

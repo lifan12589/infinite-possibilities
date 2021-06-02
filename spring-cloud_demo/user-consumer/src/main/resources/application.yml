@@ -25,7 +25,7 @@ user-service:
 
 #指定应用名称
   application:
-    name: consumer
+    name: user-consumer
 
 
 hystrix:
@@ -37,3 +37,6 @@ hystrix:
             timeoutInMilliseconds: 6000 # 设置hystrix的超时时间为6000ms
 
 
+feign:
+  hystrix:
+    enabled: true # 开启Feign的熔断功能
